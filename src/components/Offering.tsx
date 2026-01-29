@@ -6,33 +6,35 @@ const Offering: React.FC = () => {
     <section className="offering">
       <div className="container">
 
-        {/* Title */}
         <h2 className="offering-title">PsyTechVR Offering</h2>
 
-        {/* Subtitle under title */}
         <p className="offering-subtitle">
-          When purchasing a subscription, each doctor receives equipment, upon making a refundable deposit*
+          When purchasing a subscription, each doctor receives equipment,
+          upon making a refundable deposit*
         </p>
 
-        {/* Thin box */}
         <div className="offering-card">
-          <h3>1 Month</h3>
-          <p className="trial">15-days free trial</p>
-          <p className="price">then $120 / 1 month</p>
 
-          <p className="limited-offer">LIMITED TIME OFFER</p>
+          <div className="plan-header">
+            <h3>1 Month</h3>
+            <span className="trial-badge">15-days free trial</span>
+          </div>
 
-          <ul>
-            <li>VR headsets & Bio-sensors (returnable deposit)</li>
-            <li>Unlimited VR app access + monthly updates</li>
-            <li>Learning management system</li>
-            <li>Check-up questionnaires</li>
-            <li>Analytics of VR training</li>
-            <li>VR Biofeedback</li>
-            <li>VR broadcasting tool</li>
-            <li>Chat & notifications</li>
-            <li>24/7 Tech support</li>
-          </ul>
+          <p className="price">Then $120 / month</p>
+
+          <div className="limited-offer">LIMITED TIME OFFER</div>
+
+          <div className="features-list">
+            <span>VR headsets & Bio-sensors (returnable deposit)</span>
+            <span>Unlimited VR app access + monthly updates</span>
+            <span>Learning management system</span>
+            <span>Check-up questionnaires</span>
+            <span>Analytics of VR training</span>
+            <span>VR Biofeedback</span>
+            <span>VR broadcasting tool</span>
+            <span>Chat & notifications</span>
+            <span>24/7 Tech support</span>
+          </div>
 
           <button className="demo-btn">Subscribe Now</button>
         </div>

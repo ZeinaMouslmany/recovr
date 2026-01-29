@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Offering from './components/Offering';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Growth from './components/Growth';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <VRTherapy />
       <TwoVideos />
       <Testimonials />
+      <Growth/>
       <Offering />
       <Contact/>
        <Footer/>

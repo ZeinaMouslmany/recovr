@@ -1,0 +1,122 @@
+.growth {
+  padding: 5rem 2rem;
+  background: #ffffff;
+  text-align: center;
+  color: #095960;
+}
+
+.growth .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.growth h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  max-width: 720px;
+  margin: 0 auto 3.5rem;
+  font-size: 1.1rem;
+  color: #3992a0;
+}
+
+/* =====================
+   CARDS
+===================== */
+
+.growth-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.growth-card {
+  background: #f7fafa;
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.growth-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
+}
+
+.growth-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.growth-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #3992a0;
+}
+
+/* =====================
+   VR ICON
+===================== */
+
+.vr-icon {
+  width: 80px;
+  height: 60px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #3992a0, #095960);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.vr-goggles {
+  width: 60px;
+}
+
+.eye {
+  fill: white;
+  transform-origin: center;
+}
+
+.bridge {
+  fill: white;
+}
+
+.smile {
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+/* =====================
+   WINK + SMILE
+===================== */
+
+.growth-card:hover .vr-icon {
+  background: #fd355c;
+}
+
+.growth-card:hover .right-eye {
+  animation: wink 0.6s ease;
+}
+
+@keyframes wink {
+  0% { transform: scaleY(1); }
+  30% { transform: scaleY(0.15); }
+  60% { transform: scaleY(1); }
+  100% { transform: scaleY(1); }
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+
+@media (max-width: 900px) {
+  .growth-cards {
+    grid-template-columns: 1fr;
+  }
+}
