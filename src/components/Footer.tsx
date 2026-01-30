@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
 
         {/* LEFT – LOGO & INFO */}
         <div className="footer-left">
-          <img src="/logo.png" alt="XRAPY Logo" className="footer-logo" />
+          <img src={logo} alt="XRAPY logo featuring a modern design, representing a technology company based in Beirut, Lebanon" className="footer-logo" />
           <p>Beirut, Lebanon</p>
 
           <a href="mailto:info@xrapy.com" className="footer-email">
