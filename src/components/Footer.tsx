@@ -7,16 +7,20 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
-import logo from '../assets/logo.png';
+import logo2 from "../assets/logo2.png";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
 
-        {/* LEFT – LOGO & INFO */}
+       
         <div className="footer-left">
-          <img src={logo} alt="XRAPY logo featuring a modern design, representing a technology company based in Beirut, Lebanon" className="footer-logo" />
+          <img
+            src={logo2}
+            alt="XRAPY logo featuring a modern design, representing a technology company based in Beirut, Lebanon"
+            className="footer-logo"
+          />
           <p>Beirut, Lebanon</p>
 
           <a href="mailto:info@xrapy.com" className="footer-email">
@@ -24,29 +28,21 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* CENTER – SOCIAL ICONS */}
+        
+        <div></div>
+
+     
         <div className="footer-socials">
-          <a href="#" aria-label="LinkedIn">
-            <FaLinkedin />
-          </a>
-          <a href="#" aria-label="YouTube">
-            <FaYoutube />
-          </a>
-          <a href="#" aria-label="WhatsApp">
-            <FaWhatsapp />
-          </a>
-          <a href="#" aria-label="Facebook">
-            <FaFacebook />
-          </a>
-          <a href="#" aria-label="Instagram">
-            <FaInstagram />
-          </a>
+          <a href="#" aria-label="LinkedIn"><FaLinkedin /></a>
+          <a href="#" aria-label="YouTube"><FaYoutube /></a>
+          <a href="#" aria-label="WhatsApp"><FaWhatsapp /></a>
+          <a href="#" aria-label="Facebook"><FaFacebook /></a>
+          <a href="#" aria-label="Instagram"><FaInstagram /></a>
         </div>
 
-        {/* RIGHT – COPYRIGHT */}
+       
         <div className="footer-right">
-          <p>© 2026 XRAPY</p>
-          <span>Powered by XRAPY</span>
+          © 2026 XRAPY — Powered by XRAPY
         </div>
 
       </div>

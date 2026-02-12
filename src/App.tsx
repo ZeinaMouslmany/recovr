@@ -10,6 +10,7 @@ import Offering from './components/Offering';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Growth from './components/Growth';
+import TherapyModes from './components/TherapyModes';
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       <TwoVideos />
       <Testimonials />
       <Growth/>
+      <TherapyModes/>
       <Offering />
-      <Contact/>
+      
        <Footer/>
     </div>
   );

@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-/* FORM */
+
 .contact-form {
   background: #ffffff;
   padding: 2rem;
@@ -61,7 +61,7 @@
   background: #fd355c;
 }
 
-/* IMAGE */
+
 .contact-image img {
   width: 100%;
   border-radius: 20px;
@@ -69,7 +69,6 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .contact-container {
     grid-template-columns: 1fr;

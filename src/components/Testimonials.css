@@ -1,6 +1,6 @@
 .testimonials {
   padding: 6rem 2rem;
-  background-color: #3992a0; /* Secondary color background */
+  background-color: #3992a0;
   color: white;
   text-align: center;
   position: relative;
@@ -16,14 +16,14 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  flex-wrap: wrap; /* responsive */
+  flex-wrap: wrap; 
 }
 
 .testimonial-card {
   background: white;
-  color: #095960; /* Primary color text */
+  color: #095960; 
   padding: 2rem;
-  border-radius: 30px 10px 30px 10px; /* attractive shape */
+  border-radius: 30px 10px 30px 10px; 
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   max-width: 300px;
   flex: 1;

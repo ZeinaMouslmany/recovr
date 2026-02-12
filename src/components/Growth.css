@@ -22,9 +22,7 @@
   color: #3992a0;
 }
 
-/* =====================
-   CARDS
-===================== */
+
 
 .growth-cards {
   display: grid;
@@ -56,9 +54,7 @@
   color: #3992a0;
 }
 
-/* =====================
-   VR ICON
-===================== */
+
 
 .vr-icon {
   width: 80px;
@@ -92,9 +88,6 @@
   stroke-linecap: round;
 }
 
-/* =====================
-   WINK + SMILE
-===================== */
 
 .growth-card:hover .vr-icon {
   background: #fd355c;
@@ -111,9 +104,7 @@
   100% { transform: scaleY(1); }
 }
 
-/* =====================
-   RESPONSIVE
-===================== */
+
 
 @media (max-width: 900px) {
   .growth-cards {

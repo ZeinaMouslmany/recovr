@@ -5,33 +5,31 @@ const Features: React.FC = () => {
   return (
     <section className="features">
       <div className="container">
-        <h2>Effective VR Therapy Solution for Your Private Practice</h2>
+        <h2>Efficient VR Therapy Solution</h2>
 
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">VR</div>
-            <h3>Higher engagement and outcomes</h3>
+            <h3>	Immersive Virtual Reality</h3>
             <p>
-              PsyTechVR allows patients to engage in therapy, leading to improved
-              therapy effectiveness for anxiety, PTSD, phobias and more.
+             3D environments designed for high ecological validity.
             </p>
           </div>
 
           <div className="feature-card">
             <div className="feature-icon">+</div>
-            <h3>More effective therapy delivery</h3>
+            <h3>Controlled Exposure</h3>
+            <br></br>
             <p>
-              PsyTechVR provides structured, evidence-based VR protocols that
-              enhance the consistency, quality and impact of therapy sessions.
+              Safe, repeatable triggers for phobia desensitization.
             </p>
           </div>
 
           <div className="feature-card">
             <div className="feature-icon">$</div>
-            <h3>Increased practice revenue</h3>
+            <h3>Remote Patient Monitoring</h3>
             <p>
-              PsyTechVR allows practices to differentiate themselves, attract new
-              clients and justify premium pricing for innovative treatment.
+             High-fidelity therapy from the clinic or at home.
             </p>
           </div>
         </div>

@@ -5,9 +5,9 @@ const Growth: React.FC = () => {
   return (
     <section className="growth">
       <div className="container">
-        <h2>Grow Your Practice with PsyTechVR</h2>
+        <h2>Grow Your Practice with RCOVR</h2>
         <p className="subtitle">
-          PsyTechVR isn't just a therapy tool — it's a way to grow your practice and maximize revenue.
+          RCOVR is more than a therapeutic tool—it is a strategic asset designed to grow your practice and maximize revenue through innovative mental health technology.
         </p>
 
         <div className="growth-cards">
@@ -22,7 +22,7 @@ const Growth: React.FC = () => {
             </div>
             <h3>Attract More Clients</h3>
             <p>
-              Stand out with innovative therapy options that drive patient demand.
+            Stand out from local competitors by offering cutting-edge VR therapy options that meet the rising demand for modern mental health solutions.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ const Growth: React.FC = () => {
             </div>
             <h3>Increase Revenue per Session</h3>
             <p>
-              Offer premium VR-enhanced therapy at higher rates.
+              Optimize your billable hours by offering premium, tech-enhanced therapy at higher rates.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const Growth: React.FC = () => {
             </div>
             <h3>Expand into Telehealth</h3>
             <p>
-              Serve more clients remotely without additional office costs.
+             Reach new patients beyond your local area with remote VR sessions, serving more clients without increasing physical office costs.
             </p>
           </div>
         </div>
