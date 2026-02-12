@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Growth from './components/Growth';
 import TherapyModes from './components/TherapyModes';
+import FeaturesGifSection from './components/FeaturesGifSection';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <Growth/>
       <TherapyModes/>
       <Offering />
-      
+      <FeaturesGifSection />
        <Footer/>
     </div>
   );
