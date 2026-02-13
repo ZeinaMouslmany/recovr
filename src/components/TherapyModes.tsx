@@ -16,30 +16,30 @@ const TherapyModes: React.FC = () => {
 
         <div className="therapy-grid">
 
-       
-          <div className="therapy-card">
+          {/* ONLINE – Coming Next */}
+          <div className="therapy-card future">
             <img src={onlineImg} alt="Online Therapy" className="card-image" />
 
-          
             <div className="future-overlay">
               <img src={vrIcon} alt="VR Icon" />
               <span>Coming Next</span>
             </div>
 
             <h3>
-              Telehealth VR 
+              Telehealth VR
               <span className="active-tag">Online</span>
             </h3>
 
             <p>
-             Bring specialized care to your clients wherever they are. 
-             If your patient owns a compatible VR headset, you can lead immersive exposure or
-              relaxation sessions remotely through our secure, professional-grade platform.
+              Bring specialized care to your clients wherever they are.
+              If your patient owns a compatible VR headset, you can lead immersive
+              exposure or relaxation sessions remotely through our secure,
+              professional-grade platform.
             </p>
           </div>
 
-        
-          <div className="therapy-card future">
+          {/* IN-PERSON – ACTIVE */}
+          <div className="therapy-card active">
             <img
               src={inpersonImg}
               alt="In Person Therapy"
@@ -49,8 +49,10 @@ const TherapyModes: React.FC = () => {
             <h3>In-Person</h3>
 
             <p>
-              Turn your office into a center for innovation. After a standard clinical screening, 
-              use RCOVR on-site to guide patients through live sessions, observing and adjusting the experience in real-time from your clinician dashboard.
+              Turn your office into a center for innovation. After a standard
+              clinical screening, use RCOVR on-site to guide patients through live
+              sessions, observing and adjusting the experience in real-time from
+              your clinician dashboard.
             </p>
           </div>
 
