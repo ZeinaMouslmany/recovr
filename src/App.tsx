@@ -12,6 +12,19 @@ import Footer from './components/Footer';
 import Growth from './components/Growth';
 import TherapyModes from './components/TherapyModes';
 import FeaturesGifSection from './components/FeaturesGifSection';
+import VideoCarousel from './components/VideoCarousel';
+import { VideoCarouselItem } from './types';
+
+const ITEMS: VideoCarouselItem[] = [
+  {
+    title: 'Geostorm',
+    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  },
+  {
+    title: 'The Last of Us',
+    videoUrl: 'https://www.youtube.com/embed/9POTn1z8gQY',
+  },
+];
 
 function App() {
   return (
@@ -26,7 +39,8 @@ function App() {
       <Growth/>
       <TherapyModes/>
       <Offering />
-      <FeaturesGifSection />
+      <VideoCarousel items={ITEMS}/>
+    
        <Footer/>
     </div>
   );
